@@ -1,0 +1,83 @@
+<!--
+   Mehdi Jokar
+
+  This is the HTML file for the Working with Datasets web page.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>My Dataset</title>
+
+    <!-- styles for the page... -->
+    <link rel="stylesheet" href="styles/styles.css" />
+
+    <!-- reference the script with your JS array here... -->
+    <script src="scripts/dataset.js"></script>
+  </head>
+  <body style="background-image: url('img/earthquake.jpg')">
+    <main id="left-column">
+      <div id="top">
+        <h1>Earthquakes Dataset</h1>
+        <p>
+          This is a dataset about earthquakes records from around the world
+          collected from the United States Geological Survey. There are
+          <span id="totalElements"></span> elements in the dataset.
+        </p>
+      </div>
+      <div id="bottom">
+        <section>
+          <label
+            ><b>The <span id="id">Value</span> Earthquake</b></label
+          >
+        </section>
+        <section>
+          <label>Location:</label>
+          <span id="location">Value</span>
+        </section>
+        <section>
+          <label>Date & Time:</label>
+          <span id="time">Value</span>
+        </section>
+        <section>
+          <label>Depth:</label>
+          <span id="depth">Value</span>
+        </section>
+        <section>
+          <label>Distance:</label>
+          <span id="distance">Value</span>
+        </section>
+        <section>
+          <label>Gap:</label>
+          <span id="gap">Value</span>
+        </section>
+        <section>
+          <label>Significance:</label>
+          <span id="significance">Value</span>
+        </section>
+        <section>
+          <label>Magnitude:</label>
+          <span id="magnitude">Value</span>
+        </section>
+
+        <section>
+          <button id="previous">Previous</button>
+          <button id="next">Next</button>
+        </section>
+      </div>
+    </main>
+    <aside id="right-column">
+      <h2>Here are some interesting facts in my dataset!</h2>
+      <ul>
+        <li id="average"></li>
+        <li id="washington"></li>
+        <li id="minimum"></li>
+        <li id="maximum"></li>
+      </ul>
+    </aside>
+
+    <!-- reference the script with program behavior here... -->
+    <script src="scripts/program_behavior.js"></script>
+  </body>
+</html>

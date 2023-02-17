@@ -1,0 +1,77 @@
+/*
+  Mehdi Jokar
+
+  This is a CSS file for the Working with Datasets assignment.
+*/
+
+
+/* layout logic */
+body {
+    display: grid;
+    width: 900px;
+    margin: auto;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+/* your styles go here... */
+#left-column {
+    background-color: rgb(236, 232, 232);
+    margin-right: 5px;
+    height: 520px;
+    border-radius: 20px;
+    margin-top: 20px;
+
+}
+
+#top {
+    background-color: rgb(196, 193, 193);
+    position: relative;
+    bottom: 22px;
+    height: 150px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 50;
+    border-bottom: 3px solid black;
+
+}
+
+#top > h1 {
+    padding: 20px 0px 0px 10px ;
+}
+
+#top > p {
+    padding: 5px 10px 5px 10px ;
+    font-size: large;
+}
+
+#bottom {
+    padding-left: 20px;
+    font-size: large;
+}
+
+
+#right-column {
+    background-color: rgb(236, 232, 232);
+    height: 520px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+#right-column > h2 {
+    padding-left: 10px;
+}
+
+section {
+    padding-bottom: 15px;
+}
+
+#id {
+    font-weight: bold;
+}
+
+ul > li {
+    padding-bottom: 20px;
+    padding-right: 10px;
+    font-size: large;
+}
